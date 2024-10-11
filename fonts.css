@@ -1,0 +1,15 @@
+@font-face {
+    font-family: Aeonik;
+    src: url(./assets/fonts/Aeonik-Regular.otf);
+    font-weight: 400;
+}
+@font-face {
+    font-family: Aeonik;
+    src: url(./assets/fonts/Aeonik-Medium.otf);
+    font-weight: 500;
+}
+@font-face {
+    font-family: Aeonik;
+    src: url(./assets/fonts/Aeonik-Bold.otf);
+    font-weight: 600;
+}

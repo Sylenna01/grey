@@ -1,0 +1,377 @@
+@font-face {
+    font-family: Wolves;
+    src: url(./fonts/bold.otf);
+    font-weight: 700;
+}
+@font-face {
+    font-family: Wolves;
+    src: url(./fonts/medium.otf);
+    font-weight: 500;
+}
+@font-face {
+    font-family: Wolves;
+    src: url(./fonts/regular.otf);
+    font-weight: 400;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+} 
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Aeonik;
+    font-weight: 400;
+}
+.logo {
+    display: flex;
+   gap: 15px;
+}
+select {
+    background-color: #F0F2F533;
+    border-radius: 17px;
+    border: 2px solid whitesmoke;
+}
+nav >* {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+.link-button {
+    display: flex;
+    gap: 15px;
+}
+.header-link {
+    border: 2px solid none;
+}
+.header-btn {
+    border: 2px solid whitesmoke;
+    background-color: rgba(240, 242, 245, 0.2);
+    padding: 17px;
+    border-radius: 20px;
+}
+span {
+    font-weight: 600;
+}
+main {
+    padding: 35px 65px;
+    margin: 50px 0px 0px 30px;
+}
+.hero {
+    background-image: url(./assets/images/hero.webp);
+    background-position: 0 55%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h1 {
+    font-size: 70px;
+    font-family: Aeonik;
+    font-weight: 600;
+    line-height: 1;
+}
+p {
+    font-size: 17px;
+    padding: 20px 0;
+    font-family: Aeonik;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.button {
+    padding: 20px;
+    background-color: rgba(60, 119,229, 0.906);
+    border: none;
+    border-radius: 10px;
+    font-family: Aeonik;
+    font-weight: 400;
+    margin-bottom: 140px;
+}
+div {
+    padding: 30px;
+    gap: 20px;
+    align-items: center;
+}
+.second-container {
+    background-color: white;
+    padding: 0px 15px;
+}
+.second-text {
+    text-align: left;
+    font-family: Aeonik;
+    font-weight: 500;
+    font-size: 15px;
+    color: lightgrey;
+    margin-right: 530px;
+}
+.logo {
+    height: 25px;
+    width: 125px;
+}
+.logo-text {
+    display: flex;
+}
+.second-container h2 {
+    color: black;
+    text-align: center;
+    font-family: Aeonik;
+    font-weight: 600;
+    font-size: 60px;
+    margin: 80px 30px;
+}
+.bold-text {
+    color: black;
+    font-family: Aeonik;
+    font-weight: 600;
+    font-size: 60px;
+}
+.purple-text {
+    color: rgb(94, 25, 179);
+}
+.text {
+    font-size: 17px;
+    font-family: Aeonik;
+    font-weight: 400;
+    color: black;
+}
+.blue {
+    color: blue;
+    font-family: Aeonik;
+    font-weight: 400;
+    font-size: 20px;
+}
+.top-text {
+    margin-bottom: 170px;
+}
+.bank-account {
+    background-color: #E8F0FC;
+    background-image: url(https://cdn.prod.website-files.com/6360022338a81bd6fdbb1145/6563c15e45db91a91be06068_fature-one-image.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 150% 180%;
+    border-radius: 30px;
+    margin: 0px 70px; 
+    width: 90%;
+    justify-content: center;
+}
+.currency-exchange {
+    display: flex;
+}
+.smiling-girl {
+    width: 40%;
+}
+.smiling-girl img {
+    width: 100%;
+    border-radius: 30px;
+}
+.currency {
+    background-image: url(./assets/images/convert-money.svg);
+    background-position: 100% 100%;
+    background-color: #e9d8fd;
+    border-radius: 30px;
+    width: 60%; 
+}
+.virtual-cards {
+    background-color: #eff9e3;
+    background-image: url(./assets/images/cardhand.webp);
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    background-size: contain;
+    border-radius: 30px;
+    margin: 0px 70px;
+}
+.money-transfer {
+    display: flex;
+}
+.orange {
+    width: 42%;
+    padding: 45px 0px;
+}
+.orange img {
+    width: 100%;
+    height: auto;
+    border-radius: 30px;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+.money {
+   background-image: url(./assets/images/Nigeria.webp);
+   background-color: antiquewhite;
+   background-position: 100% 110%;
+   background-size: contain;
+   background-repeat: no-repeat;
+   border-radius: 30px;
+   width: 60%;
+}
+.blue-tranfer {
+    color: blue;
+    font-family: Aeonik;
+    font-weight: 400;
+    font-size: 20px;
+}
+.foreign-account {
+    background-image: url(./assets/images/usd-hand.webp);
+    background-color: black;
+    background-position: 70% 180%;
+    background-size: contain;
+    background-repeat: no-repeat;  
+    border-bottom: 1px solid whitesmoke;
+}
+.white-text {
+    color: white;
+}
+.bold-white {
+    color: white;
+    font-family: Aeonik;
+    font-weight: 600;
+    font-size: 60px;
+    margin-top: 60px;    
+}
+.black-boxes {
+    background-color: #000000;
+    display: flex;
+}
+/* .box {
+    flex-wrap: wrap;
+    width: 33.3%;
+     display: flex;
+} */
+.mini-box {
+    background-image: url(./assets/images/zero.svg);
+    background-size: contain;
+    background-repeat: no-repeat;  
+    border-radius: 20px;
+    background-color: #1b1f28;
+    /* display: flex; */
+     /* width: 33.3%;* 
+    /* flex-wrap: wrap; */
+}
+/* .box2 {
+    flex-wrap: wrap;
+    width: 33.3%;
+     display: flex;
+} */
+.mini-box2 {
+    background-image: url(./assets/images/zero.svg);
+    background-size: contain;
+    background-repeat: no-repeat;  
+    border-radius: 20px;
+    background-color: #1b1f28;
+    /* display: flex;
+    width: 33.3%;
+    flex-wrap: wrap; */
+} 
+.happy {
+    background-color: #f0f2f5;
+    margin-top: 60px; 
+    width: 95%; 
+    background-image: url(./assets/images/girls.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 30px;  
+    background-position: 95% 90%;
+}
+.girls {
+    width: 30%;
+}
+.girls img { 
+    border-radius: 30px;
+}
+.icon {
+    margin-top: 100px;
+    margin-left: 90px;
+}
+.icon-text {
+    color: black;
+    font-family: Aeonik;
+    font-weight: 600;
+    font-size: 60px;
+}
+.slide {
+    display: flex;
+    width: 125%;
+}
+.invoicing {
+    background-image: url(./assets/images/invoicing.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;  
+    width: 70%;
+    border-radius: 30px;
+}
+.invoicing-white {
+    color: white;
+    font-family: Aeonik;
+    font-weight: 400;
+    font-size: 15px; 
+    margin-bottom: 250px;
+}
+.invoicing-text {
+    color: white;
+    font-family: Aeonik;
+    font-weight: 500;
+    font-size: 40px; 
+}
+.bill-payment {
+    background-color: purple;
+    padding: 50px 50px; 
+    width: 30%;
+    border-radius: 30px;
+}
+.grey-text {
+    color: #e9d8fd;
+    font-family: Aeonik;
+    font-weight: 600;
+    font-size: 80px;
+    margin-bottom: 40px;
+    margin-left: 60px;
+}
+.middle-text {
+    text-align: center;
+    color: black;
+    font-family: Aeonik;
+    font-weight: 500;
+    font-size: 25px;
+}
+.digital {
+    background-color: black;
+}
+.digital-text {
+    color: white;
+    text-align: center;
+    font-family: Aeonik;
+    font-weight: 600;
+    font-size: 25px;
+}
+.image {
+    text-align: center;
+    border-bottom: 1px solid grey;
+    padding-bottom: 80px;
+}
+.white {
+    color: white;
+    font-family: Aeonik;
+    font-weight: 500;
+    font-size: 15px;
+}
+.grey {
+    color: lightgray;
+    font-family: Aeonik;
+    font-weight: 400;
+    font-size: 12px;
+}
+.footer {
+    display: flex;
+    color: white;
+    font-family: Aeonik;
+    font-weight: 500;
+    font-size: 13px;
+}
+.white-footer {
+    font-family: Aeonik;
+    font-weight: 500;
+    font-size: 14px;
+    margin-right: 100px;
+}
